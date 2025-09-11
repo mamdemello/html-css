@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+         body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: coral;
+            margin:0px;
+         }
+        header {
+             background-color: #e7e7eb;
+             padding: 10px;
+             margin: 10px;
+        }
+        nav {   
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 11px 9px 1px rgba(0, 0, 0, 0.493);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: rgb(247, 247, 247);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 40px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.377);
+        }
+        article > aside
+        {
+            background-color: lightgray
+        }
+
+        
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+            
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">link1</a>
+            <a href="">link2</a>
+            <a href="">link3</a>
+            <a href="">link4</a>
+        </nav>
+        </header>
+<main>
+    <section id="assuntos">
+
+    </section>
+    <section id="noticias">
+        <article>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus reprehenderit culpa ipsam expedita facilis totam dignissimos, id minus voluptas quisquam natus adipisci in officiis perferendis ab fugit? Amet, excepturi at!</p>
+            <aside>
+                <p>Artigo escrito por marcos alexandre martins de mello</p>
+            </aside>
+        </article/>
+    </section>
+</main>
+<footer>
+    <p>Desenvolvido por mim mesmo pra teste de aulas</p>
+</footer>
+<div id="bola"></div>
+</body>
+</html>
