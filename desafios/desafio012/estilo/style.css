@@ -17,10 +17,11 @@ html, body {
     background-color: darkgray;
     font-family:  var(--fonte1);
     min-height: 100vh;
+    min-width: 320px;
 
 }
 header{
-    background-color: black;
+    background-color: rgb(194, 14, 14);
     color: white;
     text-align: center;
 }
@@ -35,7 +36,7 @@ header > p {
 }
 header a, footer a {
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: bolder;
 }
 header a:hover, footer a:hover {
